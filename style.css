@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+  margin: 0.2px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.half-width p {
+  color: dimgray;
+  margin-bottom: 7%;
+}
+.primary {
+  display: block;
+  float: right;
+  color: dimgray;
+  margin-top: 2%;
+  margin-right: 3%;
+  padding-left: 3%;
+  counter-reset: menu;
+  font-size: 20px;
+}
+.orange-highlight {
+  color: rgb(247, 85, 10);
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-top: 5%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 80%;
+}
+.top-banner,
+.about,
+.latest-working {
+  height: 400px;
+  padding-bottom: 150px;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(
+    45deg,
+    rgb(131, 122, 255),
+    rgb(71, 255, 163)
+  );
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+.latest-working {
+  background-color: aliceblue;
+}
+#header {
+  text-align: center;
+}
+.single-experience {
+  width: 28.33%;
+  float: left;
+  margin: 1%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: white;
+  padding: 1%;
+}
+.latest-working img {
+  width: 80%;
+  margin-top: 5%;
+}
+.inquiry-section {
+  margin-top: 80px;
+  display: block;
+}
+.inquiry {
+  background-image: url("images/Group.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+.footer-info {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+.footer-info p {
+  color: dimgray;
+  font-size: 24px;
+}
+.footer-info img {
+  width: 40px;
+  height: 40px;
+  margin: 1%;
+}
+.footer-info h3 {
+  margin: 0.5% auto;
+  font-size: 36px;
+  font-weight: bold;
+}
+.work-info {
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin-top: 85px;
+  color: white;
+  font-weight: bold;
+}
+.work-info h2 {
+  margin-top: 0 !important;
+}
+.link-button-chat {
+  text-decoration: none;
+  background-image: linear-gradient(
+    45deg,
+    rgb(131, 122, 255),
+    rgb(71, 255, 163)
+  );
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  margin-right: 80px;
+  margin-top: 100px;
+  float: right;
+}
